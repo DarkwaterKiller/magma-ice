@@ -1,0 +1,2 @@
+execute at @e[type=item, nbt={Item:{id:"minecraft:magma_block", tag:{display:{Name:'{"text":"lavasource"}'}}}}] run setblock ~ ~ ~ minecraft:lava 
+execute as @e[type=item, nbt={Item:{id:"minecraft:magma_block", tag:{display:{Name:'{"text":"lavasource"}'}}}}] run kill @s 
